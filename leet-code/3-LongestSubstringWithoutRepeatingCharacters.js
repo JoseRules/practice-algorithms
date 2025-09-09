@@ -24,3 +24,28 @@
   • 0 <= s.length <= 5 * 104
   • s consists of English letters, digits, symbols and spaces.
 */
+
+function lengthOfLongestSubstring(s) {
+    let longestSubstring = 0;
+    const set = new Set();
+
+    let left = 0;
+    let right = 0;
+
+    while(right < s.length){
+        let letter = s[right];
+        if(!set.has(letter)){
+            set.add(letter);
+            longestSubstring = Math.max(set.size, longestSubstring);
+            right++;
+        }else{
+            set.delete(s[left]);
+            left++;
+        }
+    }
+    return longestSubstring;
+};
+
+console.log(lengthOfLongestSubstring("abcabcbb")); // Output 3
+console.log(lengthOfLongestSubstring("bbbbb")); // Output 1
+console.log(lengthOfLongestSubstring("pwwkew")); // Output 3
