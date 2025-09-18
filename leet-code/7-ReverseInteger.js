@@ -21,7 +21,7 @@
   Output: 21
   
   Constraints:
-  -231 <= x <= 231 - 1
+  • -231 <= x <= 231 - 1
 */
 
 function reverseNumber(x){
