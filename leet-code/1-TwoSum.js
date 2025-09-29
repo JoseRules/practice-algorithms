@@ -28,7 +28,7 @@
   Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
-var twoSum = function(nums, target) {
+const twoSum = function(nums, target) {
     let numbers = {};
     for(let i = 0; i < nums.length; i++){
         const numberNeeded = target - nums[i];
