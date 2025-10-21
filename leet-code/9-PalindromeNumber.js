@@ -39,6 +39,7 @@ function isPalindrome (x) {
     return original === result;
 };
 
+console.log("9. Palindrome Number");
 console.log(isPalindrome(121));
 console.log(isPalindrome(-121));
 console.log(isPalindrome(10));

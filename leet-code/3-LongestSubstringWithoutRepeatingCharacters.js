@@ -46,6 +46,7 @@ function lengthOfLongestSubstring(s) {
     return longestSubstring;
 };
 
+console.log("3. Longest Substring Without Repeating Characters");
 console.log(lengthOfLongestSubstring("abcabcbb")); // Output 3
 console.log(lengthOfLongestSubstring("bbbbb")); // Output 1
 console.log(lengthOfLongestSubstring("pwwkew")); // Output 3
