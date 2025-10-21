@@ -46,6 +46,7 @@ function longestPalindrome (s){
   return s.slice(max[0], max[1]);
 }
 
+console.log("5. Longest Palindromic Substring");
 console.log(longestPalindrome("babad")); //Output: "bab"
 console.log(longestPalindrome("cbbd")); //Output: "bb"
 console.log(longestPalindrome("a")); //Output: "a"

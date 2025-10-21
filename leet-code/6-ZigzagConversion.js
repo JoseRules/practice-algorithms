@@ -60,6 +60,7 @@ function zigzagConvert (s, numRows = 1) {
     return arr.join("");
 };
 
+console.log("6. Zigzag conversion");
 console.log(zigzagConvert("PAYPALISHIRING", 3)); //PAHNAPLSIIGYIR
 console.log(zigzagConvert("PAYPALISHIRING", 4)); //PINALSIGYAHRPI
 console.log(zigzagConvert("A", 1)); //A

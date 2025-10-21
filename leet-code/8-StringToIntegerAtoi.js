@@ -108,6 +108,7 @@ function myAtoi(s){
   return res;
 }
 
+console.log("8. String to Integer (atoi)");
 console.log(myAtoi("42")) //42
 console.log(myAtoi(" -042")) //-42
 console.log(myAtoi("1337c0d3")) //1337

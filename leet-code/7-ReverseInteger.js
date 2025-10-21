@@ -39,6 +39,7 @@ function reverseNumber(x){
     return negative ? -result : result;
 }
 
+console.log("7. Reverse Integer");
 console.log(reverseNumber(123)); //321
 console.log(reverseNumber(-123)); //-321
 console.log(reverseNumber(120)); //21
